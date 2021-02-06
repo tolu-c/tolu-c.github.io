@@ -1,0 +1,1 @@
+alert ('Welcome to my Portfolio.\nIt would be fully functional by 01/03/2021.\nHave a great day ahead!Bye.')
