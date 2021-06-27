@@ -1,20 +1,72 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>My Portfolio</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='static/css/index.css'>
-</head>
-<body>
-    <section>
-        <div class="port">
-            <h1>welcome to my portfolio</h1>
-            <h4>Come check back by <em>01/03/2021</em></h4>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Full Stack Developer" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="static/css/style.css"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__logo-box">
+        <img
+          src="./static/images/6.jpg"
+          alt="logo image"
+          class="header__logo"
+        />
+      </div>
+
+      <div class="header__menu">
+        <a href="#" class="header__menu__link active">Home</a>
+        <a href="#" class="header__menu__link">About</a>
+        <a href="#" class="header__menu__link">Tools</a>
+        <a href="#" class="header__menu__link">Works</a>
+        <a href="#" class="header__menu__link">Conatct</a>
+      </div>
+
+      <div class="header__text-box">
+        <h1 class="heading-primary">Hero Text</h1>
+        <h4 class="deading-secondary">hero text description</h4>
+
+        <a href="#" class="btn btn-primary">know more</a>
+        <a href="#" class="btn btn-primary">view works</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="section-about">
+        <div class="section__title">
+          <h2 class="heading-secondary">About section title</h2>
         </div>
-    </section>
+
+        <div class="row">
+          <div class="col-1-of-2"></div>
+
+          <div class="col-1-of-2">
+            <div class="overlay">
+              <img
+                src="./static/images/6.jpg"
+                alt="photo 1"
+                class="overlay__photo overlay__photo--p1"
+              />
+              <img
+                src="./static/images/6.jpg"
+                alt="photo 1"
+                class="overlay__photo overlay__photo--p1"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
 
     <script src="static/js/index.js"></script>
-</body>
+  </body>
 </html>
