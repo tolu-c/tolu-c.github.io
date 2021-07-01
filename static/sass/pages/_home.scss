@@ -1,0 +1,24 @@
+.col-1 {
+  color: #f0f4efff;
+}
+.col-2 {
+  color: $color-grey-dark;
+}
+.col-3 {
+  color: #63adf2ff;
+}
+.col-4 {
+  color: #386641ff;
+}
+.col-5 {
+  color: #2667ffff;
+}
+
+img {
+  height: 20rem;
+}
+
+p {
+    font-size: $default-font-size;
+    display: inline-block;
+}
