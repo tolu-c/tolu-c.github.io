@@ -1,17 +1,19 @@
-# tolu-c.io
-my portfolio/resume
+# My Portfolio
 
-fonts
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300&display=swap" rel="stylesheet">
+The template for my portfolio
 
-for text
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,400&family=Work+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300&display=swap" rel="stylesheet">
+Check the **CIA** [you will find nothing yet](http://127.0.0.1:5500/)
 
-css
-font-family: 'Work Sans', sans-serif;
-font-family: 'Roboto', sans-serif;
-font-family: 'Work Sans', sans-serif;
+Stacks used include:
+
+- HTML
+- CSS
+- SCSS
+- JAVASCRIPT
+
+### To-Do Schedule
+
+- [ ] Write out the HTML structure
+- [ ] Find out colours
+- [x] Design Figma. Check out the UI/UX design designed with *[figma](www.figma.com)* **[here](www.figma/tolu)**
+- [ ] Write out the HTML structure
