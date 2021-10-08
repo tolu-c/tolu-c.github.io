@@ -10,67 +10,102 @@
       rel="stylesheet"
       type="text/css"
       media="screen"
-      href="static/css/style.css"
+      href="static/css/style.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600&family=Quicksand:wght@300;400;500;600;700&family=Urbanist:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,700&display=swap"
+      rel="stylesheet"
     />
   </head>
   <body>
-    <div class="colors">
-      <p class="col-1">hey</p>
-      <p class="col-2">hey</p>
-      <p class="col-3">hey</p>
-      <p class="col-4">hey</p>
-      <p class="col-5">hey</p>
-    </div>
     <header class="header">
-      <div class="header__logo-box">
-        <img
-          src="./static/images/6.jpg"
-          alt="logo image"
-          class="header__logo"
-        />
+      <div class="header__logo__box">
+        <a href="/" class="header__link btn--link"
+          ><span class="logo">tC</span></a
+        >
       </div>
 
-      <div class="header__menu">
-        <a href="#" class="header__menu__link active">Home</a>
-        <a href="#" class="header__menu__link">About</a>
-        <a href="#" class="header__menu__link">Tools</a>
-        <a href="#" class="header__menu__link">Works</a>
-        <a href="#" class="header__menu__link">Conatct</a>
-      </div>
+      <nav class="header__nav">
+        <ul>
+          <li class="header__nav__list">
+            <a href="#" class="header__nav__link active">Home</a>
+          </li>
+          <li class="header__nav__list">
+            <a href="#about__section" class="header__nav__link">About</a>
+          </li>
+          <li class="header__nav__list">
+            <a href="#tools__section" class="header__nav__link">Stacks</a>
+          </li>
+          <li class="header__nav__list">
+            <a href="#" class="header__nav__link">Works</a>
+          </li>
+          <li class="header__nav__list">
+            <a href="#" class="header__nav__link">Contact</a>
+          </li>
+        </ul>
+      </nav>
 
-      <div class="header__text-box">
-        <h1 class="heading-primary">Hero Text</h1>
-        <h4 class="deading-secondary">hero text description</h4>
+      <div class="header__text">
+        <h1 class="heading--primary m-b-md">Hi, i am tolu.</h1>
+        <p class="heading--secondary m-b-lg">
+          i offer professional services in web development and design with
+          undeniable satisfaction.
+        </p>
 
-        <a href="#" class="btn btn-primary">know more</a>
-        <a href="#" class="btn btn-primary">view works</a>
+        <div class="header__buttons">
+          <a href="#" class="btn btn--primary m-r-sm">View Works</a>
+          <a href="#" class="btn btn--secondary">Know More</a>
+        </div>
       </div>
     </header>
 
     <main>
-      <section class="section-about">
-        <div class="section__title">
-          <h2 class="heading-secondary">About section title</h2>
-        </div>
-
+      <section class="about__section p-t-lg" id="about__section">
+        <h3 class="section__heading m-b-md">More about Tolu</h3>
         <div class="row">
-          <div class="col-1-of-2"></div>
+          <div class="col-1-of-2">
+            <div class="about__text">
+              <p class="text__main">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae,
+                voluptas ab ut alias itaque maxime.
+              </p>
+              <p class="text__main">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae,
+                voluptas ab ut alias itaque maxime.
+              </p>
+              <p class="text__main">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Quae,voluptas ab ut alias itaque maxime.
+              </p>
+              <p class="text__main">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae,
+                voluptas ab ut alias itaque maxime.
+              </p>
+            </div>
+          </div>
 
           <div class="col-1-of-2">
-            <div class="overlay">
+            <div class="about__image__box">
               <img
-                src="./static/images/6.jpg"
-                alt="photo 1"
-                class="overlay__photo overlay__photo--p1"
+                src="/static/images/personI.jpg"
+                alt="person 1"
+                class="about__image about__image--1"
               />
               <img
-                src="./static/images/6.jpg"
-                alt="photo 1"
-                class="overlay__photo overlay__photo--p1"
+                src="/static/images/personII.jpg"
+                alt="person 2"
+                class="about__image about__image--2"
               />
             </div>
           </div>
         </div>
+      </section>
+
+      <section class="tools__section p-t-lg" id="tools__section">
+        <h3 class="section__heading m-b-md">Stacks i've worked with so far</h3>
+
       </section>
     </main>
 

@@ -14,6 +14,6 @@ Stacks used include:
 ### To-Do Schedule
 
 - [ ] Write out the HTML structure
-- [ ] Find out colours
+- [x] Find out colours
+- [ ] Choose Fonts
 - [x] Design Figma. Check out the UI/UX design designed with *[figma](www.figma.com)* **[here](www.figma/tolu)**
-- [ ] Write out the HTML structure

@@ -1,0 +1,29 @@
+.heading {
+  &--primary {
+    font-size: 3.2rem;
+    font-weight: 300;
+    text-transform: capitalize;
+  }
+
+  &--secondary {
+    font-size: 1.6rem;
+    font-weight: 500;
+    text-transform: capitalize;
+  }
+}
+
+.section {
+  &__heading {
+    font-size: 3.6rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    text-align: center;
+  }
+}
+
+.text {
+  &__main {
+    font-size: 1.8rem;
+    line-height: 1.7;
+  }
+}
